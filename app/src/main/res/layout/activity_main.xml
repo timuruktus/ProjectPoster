@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.timuruktus.projectposter.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Заголовок"
+        android:id="@+id/titleView"
+        android:textSize="40dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Текст:"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/text" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Добавить тэг"
+        android:id="@+id/addTag" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить тэг"
+        android:id="@+id/removeTag" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Тэги:"
+        android:id="@+id/tagView" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Выбрать картинку"
+        android:id="@+id/chooseImg" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Запостить"
+        android:id="@+id/push" />
+</LinearLayout>
